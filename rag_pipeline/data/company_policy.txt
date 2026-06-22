@@ -1,0 +1,16 @@
+Company Policy Document - TechCorp Inc.
+
+Annual Leave Policy:
+All full-time employees are entitled to 25 days of paid annual leave per year. Leave must be approved by your direct manager at least 5 business days in advance. Unused leave can be carried over up to a maximum of 5 days into the next calendar year.
+
+Remote Work Policy:
+Employees may work remotely up to 3 days per week. Remote work days must be agreed upon with your team lead. All employees must be available during core hours (10am-4pm) regardless of location. A stable internet connection is required for remote work days.
+
+Medical Insurance:
+The company provides comprehensive medical insurance coverage for all employees and their dependents. Coverage includes hospital visits, dental care, and mental health support. New employees are enrolled automatically after completing their probation period of 3 months.
+
+Performance Reviews:
+Performance reviews are conducted quarterly. Each review includes self-assessment, peer feedback, and manager evaluation. Performance ratings directly impact annual bonus calculations and promotion eligibility.
+
+Data Security:
+All employees must complete annual data security training. Company data must not be stored on personal devices. Two-factor authentication is mandatory for all company systems. Report any security incidents to the IT security team within 24 hours.
