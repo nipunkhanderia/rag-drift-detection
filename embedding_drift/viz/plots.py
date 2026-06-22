@@ -10,18 +10,21 @@ from embedding_drift.core.snapshot import SnapshotStore
 
 
 def plot_2d_drift(store: SnapshotStore, dates: list[date] | None = None, save_path: str | None = None):
-    """Plot 2D PCA projection of embedding snapshots. Shows how vectors move over time."""
+    """Plot 2D PCA projection of embedding snapshots.
+
+    Args:
+        store: SnapshotStore containing saved embeddings.
+        dates: Specific dates to plot. Defaults to all available.
+        save_path: If provided, saves the plot to this path instead of showing it.
+    """
     dates = dates or store.list_dates()
     if not dates:
         print("No snapshots found.")
         return
 
     all_embeddings = []
-    labels = []
     for d in dates:
-        emb = store.load(d)
-        all_embeddings.append(emb)
-        labels.extend([d.isoformat()] * len(emb))
+        all_embeddings.append(store.load(d))
 
     combined = np.vstack(all_embeddings)
     pca = PCA(n_components=2)

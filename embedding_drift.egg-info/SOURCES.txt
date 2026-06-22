@@ -1,9 +1,12 @@
+LICENSE
 README.md
 pyproject.toml
 embedding_drift/__init__.py
+embedding_drift/cli.py
 embedding_drift.egg-info/PKG-INFO
 embedding_drift.egg-info/SOURCES.txt
 embedding_drift.egg-info/dependency_links.txt
+embedding_drift.egg-info/entry_points.txt
 embedding_drift.egg-info/requires.txt
 embedding_drift.egg-info/top_level.txt
 embedding_drift/core/__init__.py
@@ -11,3 +14,4 @@ embedding_drift/core/drift.py
 embedding_drift/core/snapshot.py
 embedding_drift/viz/__init__.py
 embedding_drift/viz/plots.py
+tests/test_drift.py

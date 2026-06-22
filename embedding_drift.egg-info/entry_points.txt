@@ -1,0 +1,2 @@
+[console_scripts]
+embedding-drift = embedding_drift.cli:main
